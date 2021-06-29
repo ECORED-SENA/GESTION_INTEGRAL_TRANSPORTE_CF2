@@ -1,0 +1,137 @@
+.color
+  &__primario--claro
+    background-color: lighten($color-primario, 50% ) !important
+  &__borde--primario
+      border-color: $color-primario
+      &::before
+        background-color: $color-primario  
+  &__borde--secundario
+      border-color: $color-secundario !important
+      &::before
+        background-color: $color-secundario  
+  &__borde--contenido
+      border-color: $color-acento-contenido !important 
+      &::before
+        background-color: $color-acento-contenido  
+  &__borde--botones
+      border-color: $color-acento-botones  
+      &::before
+        background-color: $color-acento-botones 
+  &__primario
+    background-color: $color-primario
+  &__secundario
+    background-color: $color-secundario
+  &__contenido
+    background-color: $color-acento-contenido
+  &__botones
+    background-color: $color-acento-botones
+  &__before--primario
+    &:before 
+      background-color: lighten($color-primario, 40% ) 
+  &__before--secundario
+    &:before 
+      background-color: lighten($color-secundario, 15% )
+  &__before--contenido
+    &:before 
+      background-color: lighten($color-acento-contenido, 15% )
+  &__before--botones
+    &:before 
+      background-color: lighten($color-acento-botones, 5% )
+.tarjeta--adorno-superior_izquierdo
+  position: relative
+  width: 100%
+  height: 100%
+  border: 3px solid  
+  &:before
+    content: ""
+    transform: translateY(-1)
+    position: absolute
+    top: -1px
+    left: -1px
+    width: 60px
+    height: 15px
+.tarjeta--adorno-superior_derecho
+  position: relative
+  width: 100%
+  height: 100%
+  border: 3px solid  
+  &:before
+    content: ""
+    transform: translateY(-1)
+    position: absolute
+    top: -1px
+    right: -1px
+    width: 60px
+    height: 15px
+
+.tarjeta-hover-imagenes
+  position: relative
+  &:hover
+    .tarjeta-hover-imagenes__textos
+      width: 0%
+      img, p 
+      opacity: 0%
+    .tarjeta-hover-imagenes__imagen
+
+  &__textos
+    transition: all (0.5s)
+    align-items: center
+    align-content: center
+    width: 100%
+    height: 100%
+    position: absolute
+    top: 0
+    img
+      width: 72px
+      margin: auto
+  &__imagen
+    transition: all (0.5s)
+  .contenedor__texto--derecha
+    background-color: $color-secundario 
+    position: absolute
+    top: 0
+    right: 0 
+    
+  .contenedor__texto--izquierda
+    background-color: $color-secundario 
+    position: absolute
+    top: 0
+    left: 0 
+.titulo_recuadro
+  h4
+    margin-left: 30px
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    top: 0
+    transform: translateY(-6%)
+    width: 25px
+    height: 25px
+    
+.circulo-hover
+  display: flex
+    
+  &__vineta
+    display: flex
+    transition: all (0.5s)
+    display: inline-block
+    border-radius: 50%
+    width: 50px
+    height: 50px
+    padding: 5px
+    h2
+      font-size: 35px !important
+      text-align: center
+      margin: auto
+      
+    &:hover 
+      transform: scale(1.1)
+      opacity: 1
+    &:hover + .circulo-hover__texto
+        opacity: 1
+  &__texto
+      margin-left: 20px
+      opacity: 0
+      transition: all (0.5s)

@@ -1,4 +1,6 @@
 .color
+  &__gris
+    background-color:  
   &__primario--claro
     background-color: lighten($color-primario, 50% ) !important
   &__borde--primario
@@ -30,13 +32,21 @@
       background-color: lighten($color-primario, 40% ) 
   &__before--secundario
     &:before 
-      background-color: lighten($color-secundario, 15% )
+      background-color: lighten($color-secundario, 25% )
   &__before--contenido
     &:before 
       background-color: lighten($color-acento-contenido, 15% )
   &__before--botones
     &:before 
       background-color: lighten($color-acento-botones, 5% )
+  &__claro--primario
+    background-color: lighten($color-primario, 40% ) 
+  &__claro--secundario
+    background-color: lighten($color-secundario, 15% )
+  &__claro--contenido
+    background-color: lighten($color-acento-contenido, 15% )
+  &__claro--botones
+    background-color: lighten($color-acento-botones, 5% )
 .tarjeta--adorno-superior_izquierdo
   position: relative
   width: 100%
@@ -68,10 +78,10 @@
   position: relative
   &:hover
     .tarjeta-hover-imagenes__textos
+      cursor: pointer
       width: 0%
       img, p 
       opacity: 0%
-    .tarjeta-hover-imagenes__imagen
 
   &__textos
     transition: all (0.5s)
@@ -85,6 +95,7 @@
       width: 72px
       margin: auto
   &__imagen
+    cursor: pointer
     transition: all (0.5s)
   .contenedor__texto--derecha
     background-color: $color-secundario 
@@ -114,8 +125,10 @@
   display: flex
     
   &__vineta
+    cursor: pointer
+    position: relative
     display: flex
-    transition: all (0.5s)
+    transition: transform (0.5s)
     display: inline-block
     border-radius: 50%
     width: 50px
@@ -128,10 +141,56 @@
       
     &:hover 
       transform: scale(1.1)
-      opacity: 1
     &:hover + .circulo-hover__texto
         opacity: 1
   &__texto
       margin-left: 20px
       opacity: 0
-      transition: all (0.5s)
+      transition: opacity (0.5s)
+.contenedor-texto
+  height: 100%
+  border: 3px solid 
+.bs
+  --bs-gutter-x: none !important
+.img1
+  opacity: 1
+  transition: opacity (0.5s)
+  &:hover  
+    opacity: 0
+  &:hover .img2
+    opacity: 1
+.img2
+  transition: opacity (0.5s)
+  transition: transform (0.5s)
+  &:hover 
+    opacity: 1
+    transform: scale(1.5)
+.wf
+  width: 100%
+.contenedor-hover
+  transition: background (0.5s)
+  border-radius: 0 35px 0 0 
+  img
+    margin-left: 10px
+    width: 52px
+    height: 52px
+  &:hover
+    background-color: $color-primario
+    h4 
+      color: white
+.imagenes-hover
+  position: relative
+  width: 150px
+  height: 150px
+  justify-content: center
+
+  &_img1
+    transition: opacity (0.5s)
+    opacity: 1
+    position: absolute
+    &:hover
+      opacity: 0
+  &_img2
+.lista-ol--cuadro__vineta
+  color: $color-sistema-texto !important
+  font-weight: bold !important    

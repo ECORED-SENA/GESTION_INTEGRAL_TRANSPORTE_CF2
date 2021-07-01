@@ -50,9 +50,10 @@
           .contenedor__texto--izquierda 
             h6.mb-0.px-3.py-1.text-white Cielo   
           .tarjeta-hover-imagenes__textos.color__secundario.justify-content-center.align-items-center.p-5.d-flex
-            .elementos
+            .elementos(@mouseover="mostrarIndicador=false")
               img(src='@/assets/curso/img3.svg', alt='Texto que describa la imagen').mb-2
               h4.text-center Modo
+              .indicador--hover(v-if="mostrarIndicador" ) 
           .tarjeta-hover-imagenes__imagen: img(src='@/assets/curso/img11.jpg', alt='Texto que describa la imagen')
       .col-lg-6
         .tarjeta-hover-imagenes  
@@ -138,46 +139,46 @@
             img(src='@/assets/curso/img23.jpg', alt='Texto que describa la imagen').mb-3
             p.mb-3
               b Rapidez: 
-              b-none es el medio más veloz que existe, tiene un proceso logístico ideal.
+              | es el medio más veloz que existe, tiene un proceso logístico ideal.
 
             p.mb-3
               b Seguridad: 
-              b-none según los índices es uno de los medios de transporte más seguros, al igual que el ferroviario.
+              | según los índices es uno de los medios de transporte más seguros, al igual que el ferroviario.
             p.mb-3
               b Flexibilidad: 
-              b-none existe una diversidad de aviones adaptados al tipo de transporte que realizan cargas mayores o igual a 100 toneladas.
+              | existe una diversidad de aviones adaptados al tipo de transporte que realizan cargas mayores o igual a 100 toneladas.
             p.mb-3
               b Control de seguimiento: 
-              b-none  realizan un seguimiento profundo y detallado del lugar exacto en el que se encuentra la mercancía a cada momento.
+              |  realizan un seguimiento profundo y detallado del lugar exacto en el que se encuentra la mercancía a cada momento.
           .py-3.py-md-4(titulo="Ventajas")
             img(src='@/assets/curso/img24.jpg', alt='Texto que describa la imagen').mb-3
             p.mb-3
                 b Velocidad:  
-                b-none vehículo de alta velocidad.
+                | vehículo de alta velocidad.
             p.mb-3
                 b  Competitividad: 
-                b-none reduce gastos.
+                | reduce gastos.
             p.mb-3
                 b  Documentación: 
-                b-none simple y normalizada totalmente.
+                | simple y normalizada totalmente.
             p.mb-3
                 b Cobertura:  
-                b-none tiene gran cobertura en diferentes países en el momento de transportar la carga.
+                | tiene gran cobertura en diferentes países en el momento de transportar la carga.
           .py-3.py-md-4(titulo="Desventajas")
             img(src='@/assets/curso/img25.jpg', alt='Texto que describa la imagen').mb-3
             p.mb-3
                 b Capacidad:   
-                b-none el avión no está en capacidad de competir con los demás medios de transporte por razón de peso y volumen.
+                | el avión no está en capacidad de competir con los demás medios de transporte por razón de peso y volumen.
 
             p.mb-3
                 b  Cargas a granel:  
-                b-none  no es el medio de transporte adecuado para carga o transporte de líquidos, minerales, petróleo, entre otros.
+                |  no es el medio de transporte adecuado para carga o transporte de líquidos, minerales, petróleo, entre otros.
             p.mb-3
                 b  Productos de bajo valor unitario: 
-                b-none las materias primas no pueden absorber mayor costo del flete. 
+                | las materias primas no pueden absorber mayor costo del flete. 
             p.mb-3
                 b  Artículos peligrosos: 
-                b-none el IATA (Asociación Internacional de Transporte Aéreo) y el OACI (Organización de Aviación Civil Internacional) se encarga de restringir todos aquellos artículos peligrosos en los aviones por seguridad.
+                | el IATA (Asociación Internacional de Transporte Aéreo) y el OACI (Organización de Aviación Civil Internacional) se encarga de restringir todos aquellos artículos peligrosos en los aviones por seguridad.
     .titulo_recuadro.color__before--primario.mb-5
       h4 Transporte ferroviario          
     .row.mb-5
@@ -206,16 +207,16 @@
             img(src='@/assets/curso/img27.jpg', alt='Texto que describa la imagen').mb-3
             p.mb-3
                 b Capacidad:   
-                b-none tiene grandes ventajas gracias a su mayor capacidad en relación con la del transporte carretero o aéreo, cuando se trata de volúmenes de gran carga.
+                | tiene grandes ventajas gracias a su mayor capacidad en relación con la del transporte carretero o aéreo, cuando se trata de volúmenes de gran carga.
             p.mb-3
                 b  Flexibilidad combinada:  
-                b-none se da dentro del sistema ferro acuático cuando los vagones de tren se transportan en buques porta trenes.
+                | se da dentro del sistema ferro acuático cuando los vagones de tren se transportan en buques porta trenes.
                 br
                 br
                 |Cuentan con vías y rieles que permiten alcanzar una buena velocidad. 
             p.mb-3
                 b Documentación:     
-                b-none es similar a la que se necesita para el transporte por carretera.
+                | es similar a la que se necesita para el transporte por carretera.
           .py-3.py-md-4(titulo="Desventajas")
             img(src='@/assets/curso/img28.jpg', alt='Texto que describa la imagen').mb-3
             p.mb-3 Su flexibilidad es poca, ya que se deriva de las características de la red y las diferencias en el ancho de las vías.
@@ -238,21 +239,21 @@
             img(src='@/assets/curso/img29.jpg', alt='Texto que describa la imagen').mb-3
             p.mb-3
                 b Carácter Internacional:   
-                b-none es el único medio de bajo costo a la hora de transportar mercancía en grandes cantidades y tamaños entre sitios o lugares geográficamente alejados o distantes.
+                | es el único medio de bajo costo a la hora de transportar mercancía en grandes cantidades y tamaños entre sitios o lugares geográficamente alejados o distantes.
             p.mb-3
                 b  Capacidad:   
-                b-none supera el millón de toneladas de peso muerto.
+                | supera el millón de toneladas de peso muerto.
 
             p.mb-3
                 b Flexibilidad: 
-                b-none  viene dada por la alternativa del empleo de buques de mediano y pequeño tamaño hasta busques de gran envergadura.
+                |  viene dada por la alternativa del empleo de buques de mediano y pequeño tamaño hasta busques de gran envergadura.
 
             p.mb-3
                 b Competencia: 
-                b-none  la operación casi siempre se realiza bajo la norma y las leyes del mercado de fletes.
+                |  la operación casi siempre se realiza bajo la norma y las leyes del mercado de fletes.
             p.mb-3
                 b Versatilidad: 
-                b-none cuenta con varias clases de buques, permitiendo la acomodación fácil y eficaz de la mercancía.
+                | cuenta con varias clases de buques, permitiendo la acomodación fácil y eficaz de la mercancía.
 
           .py-3.py-md-4(titulo="Ventajas")
             img(src='@/assets/curso/img30.jpg', alt='Texto que describa la imagen').mb-3
@@ -275,7 +276,7 @@
               br
               br
               b Frecuencias de los servicios: 
-              b-none el despacho de los buques no brinda tantas posibilidades con el servicio de carga aérea regular, el transporte carretero o el ferroviario.
+              | el despacho de los buques no brinda tantas posibilidades con el servicio de carga aérea regular, el transporte carretero o el ferroviario.
               br
               br
               |No salen con la misma periodicidad que lo hacen otros modos de transporte.
@@ -301,7 +302,7 @@
             img(src='@/assets/curso/img33.jpg', alt='Texto que describa la imagen').mb-3
             p.mb-3 
               b Versatilidad: 
-              b-none permite un acceso ágil a las centrales, tanto para recoger como para entregar la mercancía.
+              | permite un acceso ágil a las centrales, tanto para recoger como para entregar la mercancía.
               br
               br
               |Cuenta con diferentes tipos de vehículos.
@@ -317,22 +318,22 @@
               br
               br
               b Documentación:  
-              b-none es simple cuando se trata de formularios normalizados.
+              | es simple cuando se trata de formularios normalizados.
           .py-3.py-md-4(titulo="Desventajas")
             img(src='@/assets/curso/img34.jpg', alt='Texto que describa la imagen').mb-3
             p.mb-3 
               b Capacidad:  
-              b-none no compite con los demás modos de transporte.
+              | no compite con los demás modos de transporte.
 
             p.mb-3 
               b Grandes distancias: 
-              b-none es un transporte que únicamente puede funcionar dentro de ciertos límites, por ello, debe permitir que los embarques a grandes distancias los hagan otros medios de transporte.
+              | es un transporte que únicamente puede funcionar dentro de ciertos límites, por ello, debe permitir que los embarques a grandes distancias los hagan otros medios de transporte.
             p.mb-3 
               b Congestión de tráfico: 
-              b-none dentro de algunos países se ha convertido en un gran problema, causando demoras y retardos en los despachos de la carga.
+              | dentro de algunos países se ha convertido en un gran problema, causando demoras y retardos en los despachos de la carga.
             p.mb-3 
               b Regulación de tráfico y vías: 
-              b-none no existe un estándar en los países en vía de desarrollo frente a la seguridad, los tamaños de las vías y la capacidad de puentes.
+              | no existe un estándar en los países en vía de desarrollo frente a la seguridad, los tamaños de las vías y la capacidad de puentes.
     #t_1_3.titulo-segundo
       h2 1.3  Tipología de vehículos, pesos y dimensiones permitidas 
     p.mb-5 A continuación, se enuncia la clasificación correspondiente.
@@ -340,48 +341,48 @@
       br
       |En Colombia este tipo de vehículos 
       b se clasifica de acuerdo con el número de ejes que contenga, 
-      b-none basado en la norma técnica nacional e internacional. Para ello se utiliza una serie de letras así:   
+      | basado en la norma técnica nacional e internacional. Para ello se utiliza una serie de letras así:   
     .row.justify-content-center.align-items-center.mb-5
       .col-4: img(src='@/assets/curso/img35.svg', alt='Texto que describa la imagen')
       .col-5
         .circulo-hover.align-items-center.mb-2
-          .circulo-hover__vineta.color__botones.justify-content-center.align-content-center
-              .indicador--click(v-if="mostrarIndicador")    
+          .circulo-hover__vineta.color__botones.justify-content-center.align-items-center(@mouseover="mostrarIndicador=false")
+              .indicador--hover(v-if="mostrarIndicador" )    
               h2 B
           .circulo-hover__texto
             p.mb-0.text-hide  La letra 
               b B 
-              b-none se utiliza para el transporte de pasajeros.
+              | se utiliza para el transporte de pasajeros.
         .circulo-hover.align-items-center.mb-2
           .circulo-hover__vineta.color__botones.justify-content-center.align-items-center
             h2 C
           .circulo-hover__texto
             p.mb-0.text-hide  La letra 
               b C 
-              b-none se utiliza para el transporte de carga.
+              | se utiliza para el transporte de carga.
         .circulo-hover.align-items-center.mb-2
           .circulo-hover__vineta.color__botones.justify-content-center.align-items-center
             h2 S
           .circulo-hover__texto
             p.mb-0.text-hide  La  
               b S 
-              b-none para referirse a un semirremolque.
+              | para referirse a un semirremolque.
         .circulo-hover.align-items-center.mb-2
           .circulo-hover__vineta.color__botones.justify-content-center.align-items-center
             h2.my-auto R
           .circulo-hover__texto
             p.mb-0.text-hide  La 
               b R 
-              b-none para un remolque.
+              | para un remolque.
     p.mb-5 Se combina la primera letra con el número de ejes, así: 
       br
       br
       b C2  
-      b-none camión de dos ejes.
+      | camión de dos ejes.
       br
       b C3  
-      b-none camión de 3 ejes.
-    SlyderA
+      | camión de 3 ejes.
+    SlyderA.fw-bold
       div.p-5
         .tabla-a.color-acento-botones.mb-5.mx-5
           table
@@ -456,7 +457,7 @@
                 td: img(src='@/assets/curso/img40.svg', alt='Texto que describa la imagen')
                 td Camión Rígido
     p.mb-5 Se aplica de la misma forma para el remolque y semirremolque, el S1 se refiere a un semirremolque de 1 eje y el R2 a un remolque de 2 ejes. Con la combinación de estas dos nomenclaturas se obtiene la configuración de un tractocamión como es el C2S2, que es de dos ejes, con un semirremolque de dos ejes.          
-    SlyderA
+    SlyderA.fw-bold
       div.p-5
         .tabla-a.color-acento-botones.mb-5.mx-5
           table
@@ -523,7 +524,59 @@
                 td: img(src='@/assets/curso/img45.svg', alt='Texto que describa la imagen')
                 td Tractocamión de tres ejes con semirremolque de tres ejes. 
     p.mb-5 En cuanto a los remolques se utiliza la forma C2R2 que es la denominación de un tractocamión de dos ejes, con un remolque de dos ejes y así un C3R2 es un tractocamión de tres ejes, con un remolque de dos ejes.
-
+    SlyderA.fw-bold
+      div.p-5
+        .tabla-a.color-acento-botones.mb-5.mx-5
+          table
+            thead
+              tr.color__contenido
+                th Configuración
+                th Esquema del vehículo
+                th Descripción
+            tbody.text-center
+              tr
+                td R2
+                td: img(src='@/assets/curso/img46.svg', alt='Texto que describa la imagen')
+                td Remolque  
+      div.p-5
+        .tabla-a.color-acento-botones.mb-5.mx-5
+          table
+            thead
+              tr.color__contenido
+                th Configuración
+                th Esquema del vehículo
+                th Descripción
+            tbody.text-center
+              tr
+                td C2 R2
+                td: img(src='@/assets/curso/img47.svg', alt='Texto que describa la imagen')
+                td Camión de dos ejes con remolque de dos ejes. 
+      div.p-5
+        .tabla-a.color-acento-botones.mb-5.mx-5
+          table
+            thead
+              tr.color__contenido
+                th Configuración
+                th Esquema del vehículo
+                th Descripción
+            tbody.text-center
+              tr
+                td C3 R2
+                td: img(src='@/assets/curso/img48.svg', alt='Texto que describa la imagen')
+                td Camión de tres ejes con remolque de dos ejes.
+      div.p-5
+        .tabla-a.color-acento-botones.mb-5.mx-5
+          table
+            thead
+              tr.color__contenido
+                th Configuración
+                th Esquema del vehículo
+                th Descripción
+            tbody.text-center
+              tr
+                td C4 R2
+                td: img(src='@/assets/curso/img49.svg', alt='Texto que describa la imagen')
+                td Camión de cuatro ejes con remolque de dos ejes.
 
 
 

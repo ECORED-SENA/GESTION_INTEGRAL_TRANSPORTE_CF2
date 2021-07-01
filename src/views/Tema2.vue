@@ -2,139 +2,77 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
     .titulo-principal
-      .h3 Producción Audiovisual
-    
+      .titulo-principal__numero
+        span 2
+      h1 Tipos de carga y formas  de consolidación
+    p.mb-5 A continuación, se describen los tipos de carga y formas de consolidación:
+    TabsA.color-acento-contenido.mb-5
+      .tarjeta.color__primario--claro.p-4(titulo="Carga general")
+        .row
+          .col-xl-6.mb-4
+            figure
+              img(src='@/assets/curso/img50.jpg', alt='Texto que describa la imagen')
+          .col-xl-6
+            h4 Carga general
+            p Su embalaje se realiza de manera individual. Existen dos clases de carga según el embalaje:
+            ul.lista-ul--color
+              li 
+                i.fas.fa-check
+                p 
+                  b Carga general suelta: 
+                  b-none se manipula de forma individual.
+
+              li 
+                i.fas.fa-check
+                p 
+                  b Carga general unitarizada o preparada: 
+                  b-none varios paquetes constituyen un solo bulto en el pedido de un mismo cliente.
+      .tarjeta.color__primario--claro.p-4(titulo="Carga a granel")
+        .row
+          .col-xl-6.mb-4
+            figure
+              img(src='@/assets/curso/img51.jpg', alt='Texto que describa la imagen')
+          .col-xl-6
+            h4 Carga a granel
+            p No utiliza ningún tipo de embalaje, se suelen transportar en contenedores para su fácil acomodación o movimiento.
+      .tarjeta.color__primario--claro.p-4(titulo="Carga perecedera")
+        .row
+          .col-xl-6.mb-4
+            figure
+              img(src='@/assets/curso/img52.jpg', alt='Texto que describa la imagen')
+          .col-xl-6
+            h4 Carga perecedera
+            p Este tipo de carga tiene una vida útil determinada.  En la forma de transportarla lo más relevante es cumplir con ciertos tiempos establecidos, pues es de vital importancia debido a la delicadeza o período de vida del producto.
+      .tarjeta.color__primario--claro.p-4(titulo="Carga frágil")
+        .row
+          .col-xl-6.mb-4
+            figure
+              img(src='@/assets/curso/img53.jpg', alt='Texto que describa la imagen')
+          .col-xl-6
+            h4 Carga frágil
+            p Se caracteriza según la naturaleza, debe ser manejada con demasiado cuidado y responsabilidad, ya que pueden presentarse daños o averías en el momento del transporte; lo más habitual es que este tipo de cargas siempre necesiten un tipo de embalaje adicional que amortigüe cualquier posible daño, golpe o impacto que sufra la mercancía durante su transporte.
+      .tarjeta.color__primario--claro.p-4(titulo="Carga peligrosa")
+        .row
+          .col-xl-6.mb-4
+            figure
+              img(src='@/assets/curso/img54.jpg', alt='Texto que describa la imagen')
+          .col-xl-6
+            h4 Carga peligrosa
+            p Son elementos que por su naturaleza pueden poner en riesgo al personal que la manipula, de no hacerse de manera adecuada y cumpliendo con estrictos protocolos de seguridad. 
+      .tarjeta.color__primario--claro.p-4(titulo="Consolidación de carga")
+        .row
+          .col-xl-6.mb-4
+            figure
+              img(src='@/assets/curso/img55.jpg', alt='Texto que describa la imagen')
+          .col-xl-6
+            h4 Consolidación de carga
+            p La consolidación de carga es una definición simple de un todo, cuando la carga es combinada en un mismo contenedor por varios embarcadores. La consolidación significa que los embarcadores deben pagar tarifas por volumen de carga, ya que la envían toda al mismo tiempo en vez de hacer pequeños embarques por separado.
     #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
-    
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_2.titulo-segundo
-      .h4 2.2 Video Motion
-
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_3.titulo-segundo
-      .h4 2.3 Motion + Presentador
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_5.titulo-segundo
-      .h4 2.5 Video interactivo
-
-    p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
-
-    figure.mb-5
-      .video
-        iframe(src="https://vizia.co/videos/94d994c5fe93f1b08a60eb/embed" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
-
-    #t_2_6.titulo-segundo
-      .h4 2.6 Infografías
-
-    p.mb-4 Es una herramienta de comunicación de alta precisión, el cual tiene una narrativa gráfica con un texto corto acompañada de elementos visuales que tienen como intención de captar rápidamente la atención del lector. 
-
-    figure.mb-5
-      img(src='@/assets/curso/infografia-1.jpg', alt='Infografía Fundamentos del Servicio de Interpretación')
-      figcaption Fundamentos del Servicio de Interpretación
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Fundamentos del Servicio de Interpretación
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/fundamentos_del_servicio_de_Interpretacion.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-2.jpg', alt='Infografía Plan de Negocios')
-      figcaption Plan de Negocios
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Plan de Negocios
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/plan_de_negocios.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-3.jpg', alt='Infografía Cobertura poblacional')
-      figcaption Cobertura poblacional
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Cobertura poblacional
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/cobertura_poblacional.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-4.jpg', alt='Infografía Historia de las microfinanzas: Mohammad Yunus')
-      figcaption Historia de las microfinanzas: Mohammad Yunus
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Historia de las microfinanzas: Mohammad Yunus
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/historia_de_las_microfinanzas_mohammad_yunus.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-5.jpg', alt='Infografía Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica')
-      figcaption Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/psicologia_de_la_moda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+      h2 2.1 Unitarización de cargas y contenedores
+    p.mb-5 Tanto para el almacenamiento como distribución se utiliza el método de “unitarización” (agrupamiento de mercancías) de esta manera su traslado es más sencillo, seguro y rápido.
+    h4 Contenedorización
+    SlyderD.mb-5(:datos="datosSlyder")
 
 </template>
 
@@ -142,7 +80,26 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    datosSlyder: [
+      {
+        texto:
+          'En este proceso se emplea una caja de acero rectangular (de igual forma, puede ser de madera o plástico) que permite el manejo de la carga en conjunto y  es más segura; protege las mercancías contra la inflexibilidad del tiempo, como a su vez de probables daños y riesgos propios durante la manipulación y transporte.',
+        imagen: require('@/assets/curso/img56.jpg'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        texto:
+          'Se presta de manera cómoda y fácil al transporte combinado, de sencilla transferencia, por ejemplo, buque, tren y camión, también se puede usar repetidas veces. El contenedor actúa como un embalaje adicional para la mercancía, por tanto, debe ser manejado como una única unidad.',
+        imagen: require('@/assets/curso/img57.jpg'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        texto:
+          'La ISO maneja, regula y estandariza las medidas de un contenedor. Existen algunos de 20 y 40 pies de largo, con un volumen interno de 33 m3 y de 66 m3. Tienen una capacidad en peso desde 20 a 30 toneladas.',
+        imagen: require('@/assets/curso/img58.jpg'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {

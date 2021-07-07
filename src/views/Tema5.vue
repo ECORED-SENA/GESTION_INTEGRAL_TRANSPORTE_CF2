@@ -57,10 +57,10 @@
         .bloque-texto-b.color__before--secundario.p-2.mb-5
           .bloque-texto-b__texto
             p.mb-0 Fortalece los avances del país en materia de vías, aeropuertos, puertos y ferrocarriles, identificando las necesidades de conectividad en cada uno de los 32 departamentos del país, con el fin de construir una metodología basada en criterios objetivos que brinden soluciones efectivas y eficientes.  Lo anterior, se puede consultar en la página de la ANI (Agencia Nacional de Infraestructura), no olvide revisar en detalle los anexos. 
-        a.anexo.mb-4.mb-lg-0(href="https://youtu.be/SV1SmPLOWkE" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.ani.gov.co/article/plan-maestro-de-transporte-2015-2035-el-horizonte-de-colombia-vargas-lleras-21832" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
-          .anexo__texto
+          .anexo__texto.texto-desbordado
             p 
               b Enlace web.
               | Agencia Nacional de Infraestructura. (2015). Plan maestro de transporte 2015-2035, el horizonte de Colombia: Vargas Lleras. 

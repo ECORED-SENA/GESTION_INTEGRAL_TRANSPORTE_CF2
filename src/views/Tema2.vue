@@ -95,7 +95,7 @@ export default {
       },
       {
         texto:
-          'La ISO maneja, regula y estandariza las medidas de un contenedor. Existen algunos de 20 y 40 pies de largo, con un volumen interno de 33 m3 y de 66 m3. Tienen una capacidad en peso desde 20 a 30 toneladas.',
+          'La ISO maneja, regula y estandariza las medidas de un contenedor. Existen algunos de 20 y 40 pies de largo, con un volumen interno de 33 m<sup>3</sup> y de 66 m<sup>3</sup>. Tienen una capacidad en peso desde 20 a 30 toneladas.',
         imagen: require('@/assets/curso/img58.jpg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

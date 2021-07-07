@@ -28,13 +28,13 @@
       figcaption Nota. Adaptado del Ministerio de Transporte (2019).
     .row.mb-5
       .col-lg-7
-        a.anexo.mb-4.mb-lg-0(href="https://www.ani.gov.co/article/plan-maestro-de-transporte-2015-2035-el-horizonte-de-colombia-vargas-lleras-21832" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.mintransporte.gov.co/publicaciones/9443/transporte-en-cifras/" target="_blank").h-100
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
             p 
               b Enlace web. 
-              | Nota. Adaptado del Ministerio de Transporte (2019).  https://www.mintransporte.gov.co/publicaciones/9443/transporte-en-cifras/
+              | Nota. Adaptado del Ministerio de Transporte (2019).https://www.mintransporte.gov.co/publicaciones/9443/transporte-en-cifras/
     .titulo-sexto.color-acento-contenido
       h5 Movimiento promedio de carga en Colombia por año %
     .row.justify-content-center.mb-5
@@ -60,7 +60,7 @@
           img.mb-3(src='@/assets/curso/img90.svg', alt='Texto que describa la imagen')
       .col-lg-10
         h5 Empaque 
-        p Cabe anotar que las palabras empaque y embalaje suelen ser muy fáciles de confundir, ya que las dos pertenecen a una misma categoría o sector, pero son diferentes, el empaque es la presentación comercial de un producto, mientras el embalaje es la función de almacenar, proteger, conservar y transportar varias unidades del mismo producto en grandes cantidades.
+        p Existen diferentes tipos de empaques para los productos que van a ser movidos en una carga de un lugar a otro, y se caracterizan por el material del que están hechos. A continuación, se presentan cada tipo de empaque.
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Empaque de vidrio" :icono="require('@/assets/curso/img91.svg')")
         .row
@@ -110,7 +110,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Empaque plástico 
-            p Su uso es de gran importancia para el transporte de largas distancias, productos de grandes tamaños y pesados; es un embalaje muy resistente que permite la protección del contenido; sin embargo, es un empaque de alto costo.
+            p Nada sustentable debido a su poca capacidad de reciclaje; sin embargo, gracias a su resistencia se puede utilizar varias veces. Es muy usado para empacar alimentos, aceites, productos de limpieza y de belleza.
 
           .col-md-6
             figure
@@ -146,7 +146,7 @@
                 img(src='@/assets/curso/img107.svg', alt='Texto que describa la imagen')
           
         h3.text-center Embalaje secundario
-        p.text-center Brinda protección y facilita la comercialización del producto a una mayor escala. Generalmente se usan cajas de cartón (en algunos casos de plástico), como ejemplo está la leche; un brik individual sería el embalaje primario y la caja de cartón que contiene el six-pack representaría el embalaje secundario. 
+        p.text-center Brinda protección y facilita la comercialización del producto a una mayor escala. Generalmente se usan cajas de cartón (en algunos casos de plástico), como ejemplo está la leche; un brik individual sería el embalaje primario y la caja de cartón que contiene el six pack representaría el embalaje secundario. 
 
 
       .col-md.tarjeta.color-secundario.p-5

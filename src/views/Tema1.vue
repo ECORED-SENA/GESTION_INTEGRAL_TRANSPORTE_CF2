@@ -58,7 +58,7 @@
       .col-lg-6
         .tarjeta-hover-imagenes  
           .contenedor__texto--derecha 
-            h6.mb-0.px-3.py-1.text-white Avion o Helicóptero    
+            h6.mb-0.px-3.py-1.text-white Avión o Helicóptero    
           .tarjeta-hover-imagenes__imagen: img(src='@/assets/curso/img12.jpg', alt='Texto que describa la imagen')
           .tarjeta-hover-imagenes__textos.color__contenido.d-flex.justify-content-center.align-items-center.p-5
             .elementos
@@ -337,9 +337,9 @@
     #t_1_3.titulo-segundo
       h2 1.3  Tipología de vehículos, pesos y dimensiones permitidas 
     p.mb-5 A continuación, se enuncia la clasificación correspondiente.
-      br
-      br
-      |En Colombia este tipo de vehículos 
+    .titulo-sexto.color-acento-contenido
+      h5 Clasificación de los vehiculos de carga 
+    p En Colombia este tipo de vehículos 
       b se clasifica de acuerdo con el número de ejes que contenga, 
       | basado en la norma técnica nacional e internacional. Para ello se utiliza una serie de letras así:   
     .row.justify-content-center.align-items-center.mb-5

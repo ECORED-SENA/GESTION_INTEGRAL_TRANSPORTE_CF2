@@ -247,7 +247,7 @@ export default {
       },
       {
         nombre: 'Julia Isabel Roberto',
-        cargo: 'Diseñadora y evaluadora instrucciona',
+        cargo: 'Diseñadora y evaluadora instruccional',
         centro:
           'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica',
       },
@@ -277,7 +277,14 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: [
+          'Zuleidy Maria Ruiz Torres',
+          'Wilson Andrés Arenales Caceres',
+          'Gilberto Junior Rodriguez Rodriguez',
+          'Lina Marcela Perez Manchego',
+          'Ricardo Vásquez Arroyave',
+          'Ángela María Maldonado Jaime',
+        ],
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

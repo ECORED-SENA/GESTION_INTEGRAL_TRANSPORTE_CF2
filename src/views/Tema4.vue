@@ -31,7 +31,7 @@
         a.anexo.mb-4.mb-lg-0(href="https://www.mintransporte.gov.co/publicaciones/9443/transporte-en-cifras/" target="_blank").h-100
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
-          .anexo__texto
+          .anexo__texto.texto-desbordado
             p 
               b Enlace web. 
               | Nota. Adaptado del Ministerio de Transporte (2019).https://www.mintransporte.gov.co/publicaciones/9443/transporte-en-cifras/

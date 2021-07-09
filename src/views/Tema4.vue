@@ -23,7 +23,7 @@
     p.mb-5 La movilización de mercancías es uno de los datos más importantes en el estudio y revisión del desarrollo económico de un país. A continuación, se presentan algunas de estas cifras:
     .titulo-sexto.color-acento-contenido
       h5 Carga
-    figure.mb-5
+    figure.mb-5(data-aos="fade-down")
       img.mb-3(src='@/assets/curso/img87.svg', alt='Texto que describa la imagen')
       figcaption Nota. Adaptado del Ministerio de Transporte (2019).
     .row.mb-5
@@ -38,8 +38,8 @@
     .titulo-sexto.color-acento-contenido
       h5 Movimiento promedio de carga en Colombia por año %
     .row.justify-content-center.mb-5
-      .col-lg-8
-        figure
+      .col-lg-6
+        figure(data-aos="fade-down")
           img.mb-3(src='@/assets/curso/img88.svg', alt='Texto que describa la imagen')
     #t_4_2.titulo-segundo
       h2 4.2 Exportaciones e importaciones
@@ -49,7 +49,7 @@
           p Las exportaciones son el grupo de bienes y servicios que se comercializan por un país en territorio extranjero para su uso y empleo, es decir, se envía ya sea una mercancía o servicio a un tercero (importador) para su compra y uso.
         p El ente físico encargado de este trámite es directamente la aduana, tanto la mercancía que sale como la que entra debe pasar por esta entidad. Es importante aclarar que estas transacciones entre diferentes Estados generalmente presentan un importante grado de dificultad a nivel legal y fiscal, pues varían evidentemente de un país a otro.
       .col-lg-7
-        figure.mb-5
+        figure.mb-5(data-aos="fade-left")
           img.mb-3(src='@/assets/curso/img89.jpg', alt='Texto que describa la imagen')
     #t_4_3.titulo-segundo
       h2 4.3 Tipos de empaque y embalaje de carga
@@ -126,7 +126,7 @@
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-acento-botones.p-5
         .row.justify-content-center.mb-4
-          .col-6.justify-content-center
+          .col-6.justify-content-center.d-flex
             .imagenes-hover
               .imagenes-hover_img1(@mouseover="mostrarIndicador=false")
                 .indicador--hover(v-if="mostrarIndicador")
@@ -138,7 +138,7 @@
         p.text-center Contiene, guarda y protege el producto, manteniéndolo en óptimas condiciones. Es de suma importancia que este tipo de empaquetado sea atractivo, ya que es con el que lo recibirá el cliente.
       .col-md.tarjeta.color-acento-contenido.p-5
         .row.justify-content-center.mb-4
-          .col-6.justify-content-center
+          .col-6.justify-content-center.d-flex
             .imagenes-hover
               .imagenes-hover_img1
                 img(src='@/assets/curso/img106.svg', alt='Texto que describa la imagen')
@@ -151,7 +151,7 @@
 
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
-          .col-6.justify-content-center
+          .col-6.justify-content-center.d-flex
             .imagenes-hover
               .imagenes-hover_img1
                 img(src='@/assets/curso/img108.svg', alt='Texto que describa la imagen')

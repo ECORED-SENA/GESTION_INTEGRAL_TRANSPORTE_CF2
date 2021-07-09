@@ -11,7 +11,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         figure.mb-5
-          img(src='@/assets/curso/img59.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/img59.jpg', alt='Texto que describa la imagen')
     p.mb-5 Para un país es de vital importancia conocer e identificar la estructura de sus actividades productivas, ya que así puede determinar su tendencia económica, es decir, su especialización y aquello en que tiene más fortalezas.   
       br
       br
@@ -20,7 +20,7 @@
       br
       |Los sectores económicos permiten el análisis y estudio de la producción económica, ya que posibilitan clasificar actividades similares que compiten entre sí o se complementan, cada sector tiene subdivisiones adicionales estandarizadas.
     h4 Sector primario o agropecuario
-    .row.justify-content-center.mb-5.bs
+    .row.justify-content-center.mb-5.bs(data-aos="fade-up")
       .col-lg-5
         img(src='@/assets/curso/img60.jpg', alt='Texto que describa la imagen')
       .col-lg-5
@@ -28,8 +28,9 @@
           h4.my-auto En este sector todas las actividades económicas se obtienen directamente de la naturaleza y no existe ningún cambio en el bien o producto obtenido. 
     p.mb-5 Las principales actividades del sector primario de la economía son:
     .row.mb-5
-      .col-md-2.col-lg.mb-5.mb-lg-0
+      .col-md-2.col-lg.mb-5.mb-lg-0(@mouseover="mostrarIndicador=false")
         .tarjeta-avatar
+          .indicador--hover(v-if="mostrarIndicador" )
           img(src='@/assets/curso/img62.svg' alt='AvatarTop').img2
           img(src='@/assets/curso/img61.svg' alt='AvatarTop').img1
           //- .tarjeta debe ir acompañado de una de una de estas clases => 
@@ -79,7 +80,7 @@
             .p-4
               h4.text-center Minería
     h4.mb-3 Sector secundario
-    .row.justify-content-center.mb-5.bs
+    .row.justify-content-center.mb-5.bs(data-aos="fade-right")
       .col-lg-5
         img(src='@/assets/curso/img71.jpg', alt='Texto que describa la imagen')
       .col-lg-5
@@ -112,7 +113,7 @@
           h4 Energía
           p Son actividades destinadas a generar electricidad por medio de la conversión de energía primaria.
     h4 Sector terciario
-    .row.justify-content-center.mb-5.bs
+    .row.justify-content-center.mb-5.bs(data-aos="fade-left")
       .col-lg-5
         img(src='@/assets/curso/img75.jpg', alt='Texto que describa la imagen')
       .col-lg-5
@@ -181,7 +182,7 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {

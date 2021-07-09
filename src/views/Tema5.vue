@@ -19,7 +19,7 @@
             p 
               b Enlace web.
               |  Xavi Mtz. (2013). ¿Qué es el transporte intermodal? [video]. YouTube.  https://youtu.be/SV1SmPLOWkE
-      .col-lg-5.p-3(data-aos="fade-left")
+      .col-lg-5.p-3(data-aos="fade-right")
         figure.mb-5
             img.mb-3(src='@/assets/curso/img110.svg', alt='Texto que describa la imagen')
     .tabla-a.color-secundario.mb-5 

@@ -1,24 +1,24 @@
 .color
   &__gris
-    background-color:  
+    background-color:
   &__primario--claro
     background-color: lighten($color-primario, 50% ) !important
   &__borde--primario
       border-color: $color-primario
       &::before
-        background-color: $color-primario  
+        background-color: $color-primario
   &__borde--secundario
       border-color: $color-secundario !important
       &::before
-        background-color: $color-secundario  
+        background-color: $color-secundario
   &__borde--contenido
-      border-color: $color-acento-contenido !important 
+      border-color: $color-acento-contenido !important
       &::before
-        background-color: $color-acento-contenido  
+        background-color: $color-acento-contenido
   &__borde--botones
-      border-color: $color-acento-botones  
+      border-color: $color-acento-botones
       &::before
-        background-color: $color-acento-botones 
+        background-color: $color-acento-botones
   &__primario
     background-color: $color-primario
   &__secundario
@@ -28,19 +28,19 @@
   &__botones
     background-color: $color-acento-botones
   &__before--primario
-    &:before 
-      background-color: lighten($color-primario, 40% ) 
+    &:before
+      background-color: lighten($color-primario, 40% )
   &__before--secundario
-    &:before 
+    &:before
       background-color: lighten($color-secundario, 25% )
   &__before--contenido
-    &:before 
+    &:before
       background-color: lighten($color-acento-contenido, 15% )
   &__before--botones
-    &:before 
+    &:before
       background-color: lighten($color-acento-botones, 5% )
   &__claro--primario
-    background-color: lighten($color-primario, 40% ) 
+    background-color: lighten($color-primario, 40% )
   &__claro--secundario
     background-color: lighten($color-secundario, 15% )
   &__claro--contenido
@@ -51,7 +51,7 @@
   position: relative
   width: 100%
   height: 100%
-  border: 3px solid  
+  border: 3px solid
   &:before
     content: ""
     transform: translateY(-1)
@@ -64,7 +64,7 @@
   position: relative
   width: 100%
   height: 100%
-  border: 3px solid  
+  border: 3px solid
   &:before
     content: ""
     transform: translateY(-1)
@@ -80,7 +80,7 @@
     .tarjeta-hover-imagenes__textos
       cursor: pointer
       width: 0%
-      img, p 
+      img, p
       opacity: 0%
 
   &__textos
@@ -98,16 +98,16 @@
     cursor: pointer
     transition: all (0.5s)
   .contenedor__texto--derecha
-    background-color: $color-secundario 
+    background-color: $color-secundario
     position: absolute
     top: 0
-    right: 0 
-    
+    right: 0
+
   .contenedor__texto--izquierda
-    background-color: $color-secundario 
+    background-color: $color-secundario
     position: absolute
     top: 0
-    left: 0 
+    left: 0
 .titulo_recuadro
   h4
     margin-left: 30px
@@ -120,10 +120,10 @@
     transform: translateY(-6%)
     width: 25px
     height: 25px
-    
+
 .circulo-hover
   display: flex
-    
+
   &__vineta
     cursor: pointer
     position: relative
@@ -138,8 +138,8 @@
       font-size: 35px !important
       text-align: center
       margin: auto
-      
-    &:hover 
+
+    &:hover
       transform: scale(1.1)
     &:hover + .circulo-hover__texto
         opacity: 1
@@ -149,50 +149,57 @@
       transition: opacity (0.5s)
 .contenedor-texto
   height: 100%
-  border: 3px solid 
+  border: 3px solid
 .bs
   --bs-gutter-x: none !important
 .img1
   opacity: 1
   transition: opacity (0.5s)
-  &:hover  
+  &:hover
     opacity: 0
   &:hover .img2
     opacity: 1
 .img2
   transition: opacity (0.5s)
   transition: transform (0.5s)
-  &:hover 
+  &:hover
     opacity: 1
     transform: scale(1.5)
 .wf
   width: 100%
 .contenedor-hover
   transition: background (0.5s)
-  border-radius: 0 35px 0 0 
+  border-radius: 0 35px 0 0
   img
     margin-left: 10px
     width: 52px
     height: 52px
   &:hover
     background-color: $color-primario
-    h4 
+    h4
       color: white
 .imagenes-hover
+  margin: auto
   position: relative
-  width: 150px
-  height: 150px
+  width: 180px
+  height: 180px
   justify-content: center
 
   &_img1
+    width: 180px !important
     transition: opacity (0.5s)
     opacity: 1
     position: absolute
     &:hover
       opacity: 0
   &_img2
+     width: 180px !important
 .lista-ol--cuadro__vineta
   color: $color-sistema-texto !important
-  font-weight: bold !important   
+  font-weight: bold !important
 .anexo__texto
   overflow-wrap: break-word
+.tabs-a__tab
+  line-height: 1.2em
+.titulo-principal__numero span
+  color: $color-sistema-texto !important

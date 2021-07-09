@@ -13,10 +13,10 @@
       br
       |No se debe dividir o separar las cargas durante el transporte multimodal, debe llegar al destino exactamente la misma carga que partió desde el punto de origen; para ello, es necesario un solo documento el FBL (Fiata Bill of Landing).
     .row.justify-content-center.mb-5 
-      .col-lg-4
+      .col-lg-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/img115.svg', alt='Texto que describa la imagen')
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         h4 Características más comunes de este tipo de transporte
         ol.lista-ol--cuadro.mb-5
           li 

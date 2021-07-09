@@ -44,7 +44,7 @@
             li 
               i.fas.fa-check
               | Medio ferroviario (tren, ferrocarril).
-    .row.mb-1
+    .row.mb-4
       .col-lg-6
         .tarjeta-hover-imagenes  
           .contenedor__texto--izquierda 
@@ -64,7 +64,7 @@
             .elementos
               img(src='@/assets/curso/img4.svg', alt='Texto que describa la imagen').mb-2
               h4.text-center Medio
-    .row.mb-1
+    .row.mb-4
       .col-lg-6
         .tarjeta-hover-imagenes  
           .contenedor__texto--izquierda 
@@ -84,7 +84,7 @@
             .elementos
               img(src='@/assets/curso/img6.svg', alt='Texto que describa la imagen').mb-2
               h4.text-center Medio
-    .row.mb-1
+    .row.mb-4
       .col-lg-6
         .tarjeta-hover-imagenes  
           .contenedor__texto--izquierda 

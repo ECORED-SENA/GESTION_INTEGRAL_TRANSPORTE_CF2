@@ -8,7 +8,6 @@
     //- Una vez el componente "Muestras" no se necesite 
     //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
     //- esto evitará que se compile en la carpeta final de distribución
-    // Muestras 
     .titulo-principal
       .titulo-principal__numero
         span 1
@@ -125,6 +124,18 @@
             .elementos
               img(src='@/assets/curso/img10.svg', alt='Texto que describa la imagen').mb-2
               h4.text-center Medio
+    .tarjeta.color-acento-botones.p-4.p-md-5.mb-5
+        .row.justify-content-around.align-items-center
+          .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+            img(src="@/assets/curso/img118.svg")
+
+          .col-md.col-lg-6
+            h3 Transporte multimodal: Ventajas y desventajas
+            p.mb-4 Los tipos de transporte resuelven las necesidades del medio, en el caso del transporte multimodal tiene ventajas y desventajas que se den sopesar teniendo en cuenta todas las variables para la meta que se quiera alcanzar.
+            
+            a.boton.color-acento-contenido(:href="obtenerLink('/downloads/infografia.pdf')" target="_blank" type="application/pdf")
+              span Descargar
+              i.fas.fa-file-download
     #t_1_2.titulo-segundo
       h2 1.2  Características, ventajas y desventajas de cada medio de transporte
     .titulo_recuadro.color__before--contenido.mb-5

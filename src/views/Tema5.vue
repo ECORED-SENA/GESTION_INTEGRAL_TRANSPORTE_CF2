@@ -62,7 +62,7 @@
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto.texto-desbordado
             p 
-              b Enlace web.
+              b Enlace web. 
               | Agencia Nacional de Infraestructura. (2015). Plan maestro de transporte 2015-2035, el horizonte de Colombia: Vargas Lleras. 
       .col-lg-5.p-3(data-aos="fade-left")
         figure.mb-5

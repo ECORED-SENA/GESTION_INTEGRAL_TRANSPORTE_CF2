@@ -133,7 +133,7 @@
             h3 Transporte multimodal: Ventajas y desventajas
             p.mb-4 Los tipos de transporte resuelven las necesidades del medio, en el caso del transporte multimodal tiene ventajas y desventajas que se den sopesar teniendo en cuenta todas las variables para la meta que se quiera alcanzar.
             
-            a.boton.color-acento-contenido(:href="obtenerLink('/downloads/infografia.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-contenido(:href="obtenerLink('downloads/infografia.pdf')" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
     #t_1_2.titulo-segundo

@@ -162,7 +162,7 @@ export default {
     },
     {
       referencia:
-        'Resolución 0000164 de 2015. [Ministerio de Transporte]. Por medio de la cual se establecen los corredores logísticos de importancia estratégica para el país y se dictan otras disposiciones. Febrero 5 de 2015.',
+        'Ministerio de Transporte. (2015). Resolución 0000164 de 2015. Por medio de la cual se establecen los corredores logísticos de importancia estratégica para el país y se dictan otras disposiciones.',
       link:
         'https://web.mintransporte.gov.co/jspui/bitstream/001/6962/1/RESOLUCION%200000164-2015.pdf',
     },

@@ -11,7 +11,7 @@
         .cajon.color-secundario.p-5.mb-4
           p En Colombia existen corredores logísticos por donde se movilizan las cargas tanto del comercio exterior como del interno, que se distribuyen por toda la geografía colombiana; son medios físicos que proporcionan el intercambio y desarrollo del comercio a nivel general. En la siguiente resolución se podrá conocer con detalle lo anterior: 
       .col-lg-7
-        a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/RESOLUCION_0000164-2015.pdf')" target="_blank" type="application/pdf")
+        a.anexo.mb-4.mb-lg-0(:href="obtenerLink('downloads/RESOLUCION_0000164-2015.pdf')" target="_blank" type="application/pdf")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -34,7 +34,7 @@
           .anexo__texto.texto-desbordado
             p 
               b Enlace web. 
-              | Nota. Adaptado del Ministerio de Transporte (2019).https://www.mintransporte.gov.co/publicaciones/9443/transporte-en-cifras/
+              | Enlace web. Nota. Adaptado del Ministerio de Transporte (2019). Transporte en Cifras. https://www.mintransporte.gov.co/publicaciones/9443/transporte-en-cifras/
     .titulo-sexto.color-acento-contenido
       h5 Movimiento promedio de carga en Colombia por año %
     .row.justify-content-center.mb-5
